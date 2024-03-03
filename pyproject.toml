@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "deeplearning-playground"
+version = "0.1.0"
+description = ""
+authors = ["fusedbloxxer <voidwarden@yahoo.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ipykernel = "^6.29.3"
+einops = "^0.7.0"
+numpy = "^1.26.4"
+matplotlib = "^3.8.3"
+torch = "^2.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
